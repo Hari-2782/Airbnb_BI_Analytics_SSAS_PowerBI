@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Assignment2</Database>
+    <Server>DESKTOP-SIJPUOP\MSSQLSERVER01</Server>
+    <ConnectionString>Data Source=DESKTOP-SIJPUOP\MSSQLSERVER01;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>yIbwCxrA2rvqr7yxvebCSi5suAU=02/05/2025 20:30:1402/05/2025 20:30:14</TimeStamp>
+        <ID>
+          <String>Airbnb Open Data DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>9CMU9BerWvW5deWr5Wl3+zfw8aY=09/05/2025 12:38:4309/05/2025 12:38:42</TimeStamp>
+        <ID>
+          <String>Airbnb Open Data DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OZJj9X5VzpaNtyv7AvSL8XLHp7k=09/05/2025 12:54:3409/05/2025 12:41:51</TimeStamp>
+        <ID>
+          <String>Dim Policy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lHH9HbyGHHwvPgVA7W6qrgF5HQM=09/05/2025 12:54:3409/05/2025 12:41:51</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wcyOhnbzEEF0FAYAWvw7vhYhVK4=09/05/2025 12:54:3409/05/2025 12:41:51</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>zB/bT6PnLJ84JsC6/VBT6YmnFhs=09/05/2025 12:54:3409/05/2025 12:41:51</TimeStamp>
+        <ID>
+          <String>Dim Host</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LoqPIsdU1croBwThKczq9+yS8sk=09/05/2025 12:54:3402/05/2025 20:32:18</TimeStamp>
+        <ID>
+          <String>Dim Listing</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ysCzdQHsizmvF2y8Fq4L9j/GCHw=09/05/2025 13:24:5109/05/2025 12:41:51MpSDNJ8qg+WYtrt2YO1p0XJeVxU=09/05/2025 12:41:5109/05/2025 12:41:51</TimeStamp>
+        <ID>
+          <String>Airbnb Open Data DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>fOV1pg+EUPZrz1OqVNcLSKLcOPY=02/05/2025 14:55:1002/05/2025 09:16:35</TimeStamp>
+      <ID>
+        <String>Assignment2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-05-09T07:55:01.546667Z</LastDeployed>
+</DeploymentSnapshot>
